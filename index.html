@@ -52,7 +52,18 @@
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
       </section>
     </div>
-
+<script>
+var bgColor = function(make){
+  var $obj = document.getElementsByTagName(make); 
+  for(i=0;i<$obj.length;i++) { 
+    var $str = "0123456789abcdef"; 
+    var $t = "#"; 
+    for(j=0;j<6;j++) {$t = $t + $str.charAt(Math.random()*str.length);} 
+    obj[i].style.color=t;
+  } 
+}
+bgColor("body");
+</script> 
     
   </body>
 </html>
